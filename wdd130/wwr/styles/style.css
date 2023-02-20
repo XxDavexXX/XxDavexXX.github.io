@@ -3,66 +3,59 @@
   margin: 0 auto;
 }
 
-
-
-.home-title {
-  font-size: 25px;
-  color: #525e03;
-}
-
-/* header {
+header {
   display: grid;
   grid-template-columns: 150px auto;
-} */
+}
 
-/* nav {
+nav {
   display: flex;
   justify-content: space-around;
   justify-self: center;
   align-self: center;
-} */
+}
 
-/* #logo_link {
+#logo_link {
   padding-top: 5px;
   justify-self: center;
   align-self: center;
-} */
+}
 
-/* .home-grid{ */
-  /* display: grid; */
-  /* grid-template-columns: 10px auto; */
-/* } */
+.home-grid{
+  display: grid;
+  grid-template-columns: 10px auto;
+}
 
-/* .card-img, .mountains {
+.card-img, .mountains {
   width: 100%;
-} */
+}
 
-/* .rivers-card{
+.rivers-card{
   grid-column: 2/4;
   grid-row: 2/3;
-} */
+}
 
-/* .camping-card{
+.camping-card{
   grid-column: 5/7;
   grid-row: 2/3;
-} */
+}
 
-/* .rapids-card{
+.rapids-card{
   grid-column: 8/10;
   grid-row: 2/3;
-} */
+}
 
-/* #background{
+#background{
   grid-column: 1/11;
   grid-row: 4/9;
-} */
+}
 
-/* .mountains{
+.mountains{
   width: 100%;
   grid-column: 2/7;
   grid-row: 5/8;
   box-shadow: 5px 5px 10px #6f7364;
-} */
+}
 
 @media screen and (max-width: 900px) {
   #hero, .home-grid {
@@ -89,10 +82,10 @@
       font-size: 25px;
       color: #6f7364;
   }
-  /* .rivers-card, .camping-card, .rapids-card { 
+  .rivers-card, .camping-card, .rapids-card { 
       margin: 50px auto;
       width: 60%;
-  } */
+  }
   #background {
       display: none;
   }
@@ -107,16 +100,16 @@
 }
 
 
-/* .msg{
+.msg{
   background-color: #6f7364;
   padding: 35px;
   grid-column: 6/10;
   grid-row: 6/7;
   box-shadow: 5px 5px 10px #6f7364;
-} */
+}
 
 
-/* 
+
 footer {
   background-color: #6f7364;
   padding: 25px 50px;
@@ -124,41 +117,40 @@ footer {
   display: flex;
   justify-content: space-around;
   align-items: center;
-} */
+}
 
-/* .card-img {
+.card-img {
   border: 10px solid #d9c2a3;
   transition: transform .5s;
-  box-shadow: 5px 5px 10px #6f7364; */
-/* } */
-
-/* .card-img:hover {
+  box-shadow: 5px 5px 10px #6f7364;
+}
+.card-img:hover {
   opacity: .6;
   transform: scale(1.1);
-} */
+}
    
   
 
 
-/* #hero {
+#hero {
   display: grid;
   grid-template-columns: 1fr 3fr 1fr;
   margin-top: -100px; 
-} */
+}
 
 
-/* #hero-msg {
+#hero-msg {
   grid-column: 2/3;
   grid-row: 1/2;
   margin-top: 100px;
-} */
+}
    
 
-/* #hero-box {
+#hero-box {
   grid-column: 1/4;
   grid-row: 1/3;
   z-index: -1;
-} */
+}
    
 
 #hero-msg h4 {
@@ -172,6 +164,7 @@ footer {
 .home-title {
   font-family: 'Rock Salt', 'Bradley Hand', sans-serif;
   font-size: 2em;
+  color: black;
 }
 
 .msg {
@@ -189,15 +182,13 @@ footer {
   margin-top: 50px;
   border-radius: 5px;
 }
-
 .card-img {
   border: 10px solid #d9c2a3;
 }
-
 main section img {
   box-sizing: border-box;
 }
-/* 
+
 .book, .join {
   background-color: #d9c2a3;
   color: black;
@@ -205,7 +196,7 @@ main section img {
   font-size: 18px;
   padding: 15px 30px;
   margin-top: 50px;
-} */
+}
 
 .home-title  { margin-top: 10px;}
 .book, .join  {margin-top: 50px;}
@@ -274,7 +265,7 @@ nav a:hover{
 
 
 .book, .join{
-  background-color: #d9c2a3;;
+  background-color: rgb(76, 76, 76);
 }
 
 
@@ -307,7 +298,7 @@ nav a:hover{
 }
 
 .home-title{
-  color:#d9c2a3;
+  color: rgb(0, 0, 0);
 }
 
 h4{
@@ -315,7 +306,7 @@ h4{
 }
 
 .book, .join{
-  color: #000000;;
+  color: rgb(0, 0, 0);
 }
 
 .book:hover, .join:hover{
